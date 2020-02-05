@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/Relative"
+    android:background="#FFECECF1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_menu"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Chave de identificação de fitofisionomias"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimary">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/Adicionar"
+            android:background="@drawable/round"
+            android:layout_margin="10dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Adicionar"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            app:rd_enable="true"
+            tools:ignore="HardcodedText" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/Salvos"
+            android:background="@drawable/round"
+            android:layout_margin="10dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Salvos"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            app:rd_enable="true"
+            tools:ignore="HardcodedText" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/SendPhoto"
+            android:background="@drawable/round"
+            android:layout_margin="10dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Enviar fotos"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            app:rd_enable="true"
+            tools:ignore="HardcodedText" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/Sobre"
+            android:background="@drawable/round"
+            android:layout_margin="10dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Sobre-nós"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            app:rd_enable="true"
+            tools:ignore="HardcodedText" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Conectado em\nexample@live.com"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/logout"
+        android:background="@drawable/round"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair da conta"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        app:rd_enable="true"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

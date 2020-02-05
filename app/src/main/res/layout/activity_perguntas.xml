@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECECF1"
+    tools:context=".Perguntas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Linear1"
+            android:animateLayoutChanges="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_menu"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Permissões"
+                android:textSize="17sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="O aplicativo requer as seguintes permissões para funcionar no seu melhor desempenho"
+                android:textSize="14sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_location"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Localização"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorAccent"
+                        android:text="Acesso a coordenadas para ajudá-lo com a identificação mais precisa dos índices."
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_gps"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="GPS"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorAccent"
+                        android:text="Obteremos os dados necessários para que as informações recolhidas pelos índices sejam de grande ajuda."
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center|bottom"
+                android:orientation="vertical">
+
+                <com.rey.material.widget.Button
+                    android:id="@+id/Permissao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/round"
+                    android:text="PERMITIR ACESSO"
+                    android:textAllCaps="false"
+                    app:rd_enable="true"
+                    app:rd_rippleType="wave"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Linear2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_margin="5dp"
+                android:shape="ring"
+                android:thicknessRatio="2"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <com.rey.material.widget.Button
+                        android:id="@+id/resposta1"
+                        android:background="@drawable/round"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 Quem descobriu a américa"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+                        android:textAllCaps="false"
+                        android:layout_margin="5dp"
+                        app:rd_enable="true"
+                        tools:ignore="HardcodedText" />
+
+                    <ImageView
+                        android:id="@+id/Imagem1"
+                        android:layout_margin="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/floresta_ombrofila"
+                        android:background="@drawable/border"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Card2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_margin="5dp"
+                android:shape="ring"
+                android:thicknessRatio="2"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <com.rey.material.widget.Button
+                        android:id="@+id/resposta2"
+                        android:background="@drawable/round"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1' Quem descobriu a américa"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+                        android:textAllCaps="false"
+                        android:layout_margin="5dp"
+                        app:rd_enable="true"
+                        tools:ignore="HardcodedText" />
+
+                    <ImageView
+                        android:id="@+id/Imagem2"
+                        android:layout_margin="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/savana"
+                        android:background="@drawable/border"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <com.rey.material.widget.Button
+                android:id="@+id/Proximo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round"
+                android:layout_margin="5dp"
+                android:text="Salvar"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                app:rd_enable="true"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/PalavraChave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:text="@string/palavras_chaves" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

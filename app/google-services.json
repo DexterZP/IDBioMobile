@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1066727261170",
+    "firebase_url": "https://idbio-mobile.firebaseio.com",
+    "project_id": "idbio-mobile",
+    "storage_bucket": "idbio-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066727261170:android:23b9cd84c904cde3",
+        "android_client_info": {
+          "package_name": "br.dexter.idbiomobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066727261170-ugpaf8sga7dajlh9p3a2ii4va1gelu6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.dexter.idbiomobile",
+            "certificate_hash": "c2e23a9305b2c5ec475e72ad8e4f56b9402ee4ad"
+          }
+        },
+        {
+          "client_id": "1066727261170-vhlp78rodas25pf61mcu3lj5hcosqm6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6NOMcABpQ1xuNenQGX5hRiSzLJoQLeGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066727261170-vhlp78rodas25pf61mcu3lj5hcosqm6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

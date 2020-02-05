@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">IDBio Mobile</string>
+
+    <string-array name="Dia">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="Mes">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="Ano">
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+    </string-array>
+
+
+    <string name="palavras_chaves">Palavras chaves:\n1 - Formação Vegetal: Um conjunto de formas de vida vegetal de ordem superior, que compõe uma fisionomia homogênea, apesar de sua estrutura complexa (IBGE, 2012).
+    \n\n2 - Decidua: Planta que perde as suas folhas em época de seca, em resposta fisiologica para minimizar a transpiração.
+    \n\n3 - Sazonal: Se refere ao que é temporário, ou seja, que é típico de determinada estação ou época.
+    \n\n4 - Ombrofila: O termo ¨ombrófilo¨é de origem grega (ombrós=chuva+philos=amigo)enquanto o termo ¨pluvial¨é de origem latina (pluviale). Caracterizam por biomas costeiros e tropicais chuvosos.
+    \n\n5 - Dossel: É o estrato superior das florestas.
+    \n\n6 - Estacional: Relativo a estação sazonal; próprio de uma estação.
+    \n\n7 - Estepe: Tipo de formação campestre que se caracteriza pela pouca densidade da vegetação herbácea, xerófila, rasteira, e com predominância de gramíneas, que ocorre em tufos afastados, deixando o solo descoberto.
+    \n\n8 - Rupestre: Relativo a rocha.</string>
+</resources>
